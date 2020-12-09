@@ -18,6 +18,8 @@ public class Calculator {
     };
 
     UnaryOperator<Integer> pow = x -> x * x;
+
+    /*Реализация функционального интерфеса не вызывает ошибку*/
     UnaryOperator<Integer> abs = x -> x > 0 ? x : x * -1;
     Predicate<Integer> isPositive = x -> x > 0;
     Consumer<Integer> println = System.out::println;

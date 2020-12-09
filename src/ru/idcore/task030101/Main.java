@@ -14,7 +14,7 @@ public class Main {
 
 
         calc.println.accept(f);
-        System.out.println("isPossitive = " + calc.isPositive.test(b));
+        System.out.println("isPositive = " + calc.isPositive.test(b));
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("c = " + c);
