@@ -1,4 +1,4 @@
-package ru.idcore.task030101;
+package ru.idcore.javacore.task030101;
 
 import java.util.function.*;
 
