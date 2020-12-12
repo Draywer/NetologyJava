@@ -11,9 +11,8 @@ public class MyStreamNumber {
 
     public List<Integer> positiveEvenAscending(List<Integer> list) {
         List<Integer> integerList = new ArrayList<>();
-        Stream<Integer> stream = list.stream();
 
-        integerList = stream
+        integerList = list.stream()
                 .filter(integer -> integer > 0)
                 .filter(integer -> integer%2 == 0)
                 .sorted(Comparator.naturalOrder())
