@@ -7,16 +7,16 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         StringBuilder tmp = new StringBuilder();
-        String dirGame = "C://game";
-        String dirSrc = dirGame + "/src";
-        String dirRes = dirGame + "/res";
-        String dirSavegames = dirGame + "/savegames";
-        String dirTemp = dirGame + "/temp";
-        String dirMain = dirSrc + "/main";
-        String dirTest = dirSrc + "/test";
-        String dirDrawables = dirRes + "/drawables";
-        String dirVectors = dirRes + "/vectors";
-        String dirIcons = dirRes + "/icons";
+        String dirGame = "C:\\game";
+        String dirSrc = dirGame + "\\src";
+        String dirRes = dirGame + "\\res";
+        String dirSavegames = dirGame + "\\savegames";
+        String dirTemp = dirGame + "\\temp";
+        String dirMain = dirSrc + "\\main";
+        String dirTest = dirSrc + "\\test";
+        String dirDrawables = dirRes + "\\drawables";
+        String dirVectors = dirRes + "\\vectors";
+        String dirIcons = dirRes + "\\icons";
 
         FileWriter out = null;
         File gm = new File(dirGame);
