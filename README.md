@@ -10,6 +10,7 @@
 Директория "game" - создается на диске C:
 
 Log:  
+ ~~~text
 Директория: C:\game - создана  
 Директория: C:\game\src - создана  
 Директория: C:\game\src\main - создана  
@@ -20,4 +21,5 @@ Log:
 Директория: C:\game\res\icons - создана  
 Директория: C:\game\savegames - создана  
 Директория: C:\game\temp - создана  
-Файл: C:\game\temp\temp.txt - создан  
+Файл: C:\game\temp\temp.txt - создан 
+~~~
