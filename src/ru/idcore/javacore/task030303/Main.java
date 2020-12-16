@@ -1,4 +1,4 @@
-package ru.idcore.javacore.task030302;
+package ru.idcore.javacore.task030303;
 
 import java.io.File;
 import java.io.FileOutputStream;
