@@ -83,5 +83,20 @@ public class Game {
         }
         return result;
     }
+
+    public GameProgress openProgress(String path) {
+        GameProgress gameProgress = null;
+        // входной поток для чтения файла
+        try (FileInputStream fis = new FileInputStream(path);
+             ObjectInputStream ois = new ObjectInputStream(fis)) {
+            // десериализуем объект
+            gameProgress = (GameProgress) ois.readObject();
+            return gameProgress;
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+        return gameProgress;
+    }
+
 }
 
