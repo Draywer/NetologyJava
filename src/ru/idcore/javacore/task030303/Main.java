@@ -25,8 +25,6 @@ public class Main {
             if (game.saveGame(path + "\\gameprogress" + (i + 1) + ".ser", gameProgresses.get(i))) {
                 game.writeLog(tmp, "GameProgress сохранен в : " + path + "\\gameprogress" + (i + 1) + ".ser");
             }
-            ;
-
         }
 
         //архивирование файлов
@@ -49,6 +47,10 @@ public class Main {
                 game.writeLog(tmp, "Файл: " + file.getAbsolutePath() + " - удален");
                 file.delete();
             }
+        }
+        //извлечение файлов из архива и запись лога в tmp = "C:\\game\\temp\\temp.txt"
+        if (game.openZip(zip, path, tmp)) {
+            System.out.println("Файлы извлечены из архива.");
         }
     }
 }
