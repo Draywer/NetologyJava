@@ -3,10 +3,55 @@ package ru.idcore.javacore.task030301;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+
+        List<String> paths = new ArrayList<>();
         StringBuilder tmp = new StringBuilder();
+        FileWriter out = null;
+
+        paths.add("C:\\game\\res\\drawables");
+        paths.add("C:\\game\\res\\icons");
+        paths.add("C:\\game\\res\\vectors");
+        paths.add("C:\\game\\savegames");
+        paths.add("C:\\game\\src\\main");
+        paths.add("C:\\game\\src\\test");
+        paths.add("C:\\game\\temp");
+
+        try {
+            for (String s: paths
+            ) {
+                File file = new File(s);
+                if (file.mkdirs()) {
+                    tmp.append("Директория: ").append(file.getAbsolutePath()).append(" - создана");
+                    if (s.equals("C:\\game\\temp")) {
+                        File fTemp = new File(s + "/temp.txt");
+                        if (fTemp.createNewFile()) {
+
+                        }
+                        out = new FileWriter(s + "\\temp.txt");
+                    }
+                } else {
+                    tmp.append("ОШИБКА! Директория: ").append(file.getAbsolutePath()).append(" - не создана");
+                }
+            }
+
+        } catch () {
+
+        }
+
+        finally {
+
+        }
+
+
+
+
+
         String dirGame = "C:\\game";
         String dirSrc = dirGame + "\\src";
         String dirRes = dirGame + "\\res";
