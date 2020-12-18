@@ -1,5 +1,8 @@
 package ru.idcore.javacore.task030302;
 
+import ru.idcore.javacore.task030303.Game;
+import ru.idcore.javacore.task030303.GameProgress;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
