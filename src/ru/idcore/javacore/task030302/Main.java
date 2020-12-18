@@ -47,7 +47,9 @@ public class Main {
         ) {
             if (!file.getName().endsWith(".zip")) {
                 game.writeLog(tmp, "Файл: " + file.getAbsolutePath() + " - удален");
-                file.delete();
+                if (file.delete()) {
+                    System.out.println("файлы удвлены");
+                }
             }
         }
     }
