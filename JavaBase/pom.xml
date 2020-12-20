@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>NetologyJava</artifactId>
+        <groupId>ru.idcore</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.idcore</groupId>
-    <artifactId>NetologyJava</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>JavaBase</module>
-        <module>JavaCore</module>
-    </modules>
+    <artifactId>JavaBase</artifactId>
 
-
-    <name>NetologyJava</name>
-    <packaging>pom</packaging>
-
-    <url>http://www.netology.ru</url>
+    <name>JavaBase</name>
+    <packaging>jar</packaging>
+    <url>http://www.idcore.ru</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
 
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -79,6 +66,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-
 </project>

@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NetologyJava" />
+        <module name="JavaBase" />
+        <module name="JavaCore" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="db" target="1.5" />
+      <module name="JavaBase" target="11" />
+      <module name="JavaCore" target="11" />
       <module name="NetologyJava" target="11" />
     </bytecodeTargetLevel>
   </component>
