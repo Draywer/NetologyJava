@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaCoreMaven/JavaCoreMaven.iml" filepath="$PROJECT_DIR$/JavaCoreMaven/JavaCoreMaven.iml" />
       <module fileurl="file://$PROJECT_DIR$/NetologyJava.iml" filepath="$PROJECT_DIR$/NetologyJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCoreMaven/api/api.iml" filepath="$PROJECT_DIR$/JavaCoreMaven/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCoreMaven/db/db.iml" filepath="$PROJECT_DIR$/JavaCoreMaven/db/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCoreMaven/service/service.iml" filepath="$PROJECT_DIR$/JavaCoreMaven/service/service.iml" />
     </modules>
   </component>
 </project>

@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NetologyJava" />
+        <module name="db" />
+        <module name="api" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="1.7" />
+      <module name="db" target="1.7" />
+      <module name="JavaCoreMaven" target="11" />
       <module name="NetologyJava" target="1.5" />
+      <module name="service" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
