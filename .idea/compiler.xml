@@ -12,8 +12,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api" target="1.7" />
-      <module name="db" target="1.7" />
+      <module name="api" target="11" />
+      <module name="db" target="11" />
       <module name="JavaCoreMaven" target="11" />
       <module name="NetologyJava" target="1.5" />
       <module name="service" target="11" />
