@@ -9,6 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/JavaCoreGradle" />
+            <option value="$PROJECT_DIR$/JavaCoreGradle/api" />
+            <option value="$PROJECT_DIR$/JavaCoreGradle/db" />
+            <option value="$PROJECT_DIR$/JavaCoreGradle/service" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />

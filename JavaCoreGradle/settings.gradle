@@ -1,2 +1,5 @@
 rootProject.name = 'JavaCoreGradle'
+include 'api'
+include 'db'
+include 'service'
 
