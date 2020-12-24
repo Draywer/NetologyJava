@@ -9,9 +9,5 @@
         <module name="NetologyJava" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaCoreGradle.main" target="1.8" />
-      <module name="JavaCoreGradle.test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
